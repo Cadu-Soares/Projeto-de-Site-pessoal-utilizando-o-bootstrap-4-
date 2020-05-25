@@ -1,0 +1,88 @@
+/* estilos gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de navegação*/
+
+header,
+.navbar {
+    background-color: #353d41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 134px;
+}
+
+.navbar-nav {
+    /*Aqui estou subescrevendo os parâmetros já determinados pelo bootstrap*/
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    /*Aqui estou subescrevendo os parâmetros já determinados pelo bootstrap*/
+    padding-right: 36px;
+    padding-left: 0;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+
+
+#navbar-link a {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .nav-nav .nav-link {
+    /*Aqui estou subescrevendo os parâmetros já determinados pelo bootstrap, deixando-os um pouco maior*/
+    padding: 1rem 8rem;
+}
+
+/*Slider*/
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 30px;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
